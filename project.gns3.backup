@@ -1,0 +1,355 @@
+{
+    "auto_start": false,
+    "name": "project",
+    "project_id": "a3e32a4f-cdb1-40e5-83de-ca52ddc01f6e",
+    "revision": 9,
+    "topology": {
+        "computes": [
+            {
+                "compute_id": "local",
+                "host": "127.0.0.1",
+                "name": "Local",
+                "port": 8000,
+                "protocol": "http"
+            }
+        ],
+        "drawings": [
+            {
+                "drawing_id": "8142a282-102a-4055-9b7d-9ff3987852b0",
+                "rotation": 0,
+                "svg": "<svg height=\"20\" width=\"190\"><text fill=\"#000000\" fill-opacity=\"0.0\" font-family=\"TypeWriter\" font-size=\"10\" font-weight=\"bold\" font-style=\"normal\">vlan 4 (40.40.40.0)</text></svg>",
+                "x": -118,
+                "y": 347,
+                "z": 0
+            }
+        ],
+        "links": [
+            {
+                "link_id": "2912189e-1127-4243-8134-757a3c721e60",
+                "nodes": [
+                    {
+                        "adapter_number": 0,
+                        "node_id": "005ec0f7-88ab-4ce2-aa8c-1de640fdd582",
+                        "port_number": 1
+                    },
+                    {
+                        "adapter_number": 0,
+                        "node_id": "28d2a846-cd29-4af7-879c-e507e981276a",
+                        "port_number": 0
+                    }
+                ]
+            },
+  
+
+
+            {
+                "link_id": "46f6dfd5-82e0-45db-be25-ed097985ac2d",
+                "nodes": [
+                    {
+                        "adapter_number": 0,
+                        "node_id": "9fe43ec6-d222-46ae-8cb6-a681fa0183e7",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 1,
+                        "node_id": "01fc11ca-32ca-4c47-9b14-342e9655bb8a",
+                        "port_number": 0
+                    }
+                ]
+            },
+            {
+                "link_id": "e9787f14-9e9f-4635-8a07-f7705d826a94",
+                "nodes": [
+                    {
+                        "adapter_number": 0,
+                        "node_id": "01fc11ca-32ca-4c47-9b14-342e9655bb8a",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 0,
+                        "node_id": "2ea7299a-1dc3-4d44-82dc-d3c1d25d008c",
+                        "port_number": 0
+                    }
+                ]
+            },
+            {
+                "link_id": "2a34e51f-7ebd-40ae-b53d-5c946580bb0b",
+                "nodes": [
+                    {
+                        "adapter_number": 1,
+                        "node_id": "2ea7299a-1dc3-4d44-82dc-d3c1d25d008c",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 0,
+                        "node_id": "8519cfd3-17fa-41d3-bc4c-8b1cab2606ee",
+                        "port_number": 0
+                    }
+                ]
+            }
+        ],
+        "nodes": [
+           
+            {
+                "compute_id": "local",
+                "console": null,
+                "console_type": "none",
+                "first_port_name": null,
+                "label": {
+                    "rotation": 0,
+                    "style": "font-family: TypeWriter;font-size: 10;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                    "text": "SW4",
+                    "x": 17,
+                    "y": -25
+                },
+                "name": "SW4",
+                "node_id": "8519cfd3-17fa-41d3-bc4c-8b1cab2606ee",
+                "node_type": "ethernet_switch",
+                "port_name_format": "Ethernet{0}",
+                "port_segment_size": 0,
+                "properties": {
+                    "ports_mapping": [
+                        {
+                            "name": "Ethernet0",
+                            "port_number": 0,
+                            "type": "access",
+                            "vlan": 1
+                        },
+                        {
+                            "name": "Ethernet1",
+                            "port_number": 1,
+                            "type": "access",
+                            "vlan": 1
+                        },
+                        {
+                            "name": "Ethernet2",
+                            "port_number": 2,
+                            "type": "access",
+                            "vlan": 1
+                        },
+                        {
+                            "name": "Ethernet3",
+                            "port_number": 3,
+                            "type": "access",
+                            "vlan": 1
+                        },
+                        {
+                            "name": "Ethernet4",
+                            "port_number": 4,
+                            "type": "access",
+                            "vlan": 1
+                        },
+                        {
+                            "name": "Ethernet5",
+                            "port_number": 5,
+                            "type": "access",
+                            "vlan": 1
+                        },
+                        {
+                            "name": "Ethernet6",
+                            "port_number": 6,
+                            "type": "access",
+                            "vlan": 1
+                        },
+                        {
+                            "name": "Ethernet7",
+                            "port_number": 7,
+                            "type": "access",
+                            "vlan": 1
+                        }
+                    ]
+                },
+                "symbol": ":/symbols/ethernet_switch.svg",
+                "x": 190,
+                "y": -341,
+                "z": 1
+            },
+              {
+                "compute_id": "local",
+                "console": 2023,
+                "console_type": "telnet",
+                "first_port_name": null,
+                "label": {
+                    "rotation": 0,
+                    "style": "font-family: TypeWriter;font-size: 10;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                    "text": "IE8 - Win7 1",
+                    "x": -10,
+                    "y": -25
+                },
+                "name": "IE8 - Win7 1",
+                "node_id": "ff71b449-bf4c-4ef5-9da1-e1b3667e1835",
+                "node_type": "virtualbox",
+                "port_name_format": "Ethernet{0}",
+                "port_segment_size": 0,
+                "properties": {
+                    "adapter_type": "Intel PRO/1000 MT Desktop (82540EM)",
+                    "adapters": 1,
+                    "headless": false,
+                    "linked_clone": false,
+                    "ram": 1024,
+                    "use_any_adapter": false,
+                    "vmname": "IE8 - Win7 1"
+                },
+                "symbol": ":/symbols/vbox_guest.svg",
+                "x": 313,
+                "y": -417,
+                "z": 1
+            },
+            {
+                "compute_id": "local",
+                "console": 2022,
+                "console_type": "telnet",
+                "first_port_name": null,
+                "label": {
+                    "rotation": 0,
+                    "style": "font-family: TypeWriter;font-size: 10;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                    "text": "R1",
+                    "x": 20,
+                    "y": -25
+                },
+                "name": "R1",
+                "node_id": "2ea7299a-1dc3-4d44-82dc-d3c1d25d008c",
+                "node_type": "dynamips",
+                "port_name_format": "Ethernet{0}",
+                "port_segment_size": 0,
+                "properties": {
+                    "auto_delete_disks": true,
+                    "clock_divisor": 4,
+                    "disk0": 0,
+                    "disk1": 0,
+                    "dynamips_id": 3,
+                    "exec_area": 64,
+                    "idlemax": 500,
+                    "idlesleep": 30,
+                    "image": "C:/Users/VIKI/GNS3/images/IOS/c7200-adventerprisek9-mz.124-24.T5.image",
+                    "mac_addr": "ca03.1e58.0000",
+                    "midplane": "vxr",
+                    "mmap": true,
+                    "npe": "npe-400",
+                    "nvram": 512,
+                    "platform": "c7200",
+                    "power_supplies": [
+                        1,
+                        1
+                    ],
+                    "ram": 512,
+                    "sensors": [
+                        22,
+                        22,
+                        22,
+                        22
+                    ],
+                    "slot0": "C7200-IO-FE",
+                    "slot1": "PA-FE-TX",
+                    "sparsemem": true,
+                    "system_id": "FTX0945W0MY"
+                },
+                "symbol": ":/symbols/router.svg",
+                "x": 30,
+                "y": -253,
+                "z": 1
+            },
+            {
+                "compute_id": "local",
+                "console": 2023,
+                "console_type": "telnet",
+                "first_port_name": null,
+                "label": {
+                    "rotation": 0,
+                    "style": "font-family: TypeWriter;font-size: 10;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                    "text": "win10 1",
+                    "x": -10,
+                    "y": -25
+                },
+                "name": " Win10 1",
+                "node_id": "ff71b449-bf4c-4ef5-9da1-e1b3667e1835",
+                "node_type": "virtualbox",
+                "port_name_format": "Ethernet{0}",
+                "port_segment_size": 0,
+                "properties": {
+                    "adapter_type": "Intel PRO/1000 MT Desktop (82540EM)",
+                    "adapters": 1,
+                    "headless": false,
+                    "linked_clone": false,
+                    "ram": 1024,
+                    "use_any_adapter": false,
+                    "vmname": "Win10 1"
+                },
+                "symbol": ":/symbols/vbox_guest.svg",
+                "x": 313,
+                "y": -417,
+                "z": 1
+            },
+
+            {
+                "compute_id": "local",
+                "console": 2003,
+                "console_type": "telnet",
+                "first_port_name": null,
+                "label": {
+                    "rotation": 0,
+                    "style": "font-family: TypeWriter;font-size: 10;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                    "text": "kali",
+                    "x": 18,
+                    "y": -25
+                },
+                "name": "kali",
+                "node_id": "28d2a846-cd29-4af7-879c-e507e981276a",
+                "node_type": "virtualbox",
+                "port_name_format": "Ethernet{0}",
+                "port_segment_size": 0,
+                "properties": {
+                    "adapter_type": "Intel PRO/1000 MT Desktop (82540EM)",
+                    "adapters": 1,
+                    "headless": false,
+                    "linked_clone": false,
+                    "ram": 2048,
+                    "use_any_adapter": false,
+                    "vmname": "kali"
+                },
+                "symbol": ":/symbols/vbox_guest.svg",
+                "x": -106,
+                "y": 271,
+                "z": 1
+            },
+
+            {
+                "compute_id": "local",
+                "console": 2002,
+                "console_type": "telnet",
+                "first_port_name": null,
+                "label": {
+                    "rotation": 0,
+                    "style": "font-family: TypeWriter;font-size: 10;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                    "text": "ASA-1",
+                    "x": 0,
+                    "y": -25
+                },
+                "name": "ASA-1",
+                "node_id": "01fc11ca-32ca-4c47-9b14-342e9655bb8a",
+                "node_type": "qemu",
+                "port_name_format": "Ethernet{0}",
+                "port_segment_size": 0,
+                "properties": {
+                    "adapter_type": "e1000",
+                    "adapters": 4,
+                    "cpu_throttling": 80,
+                    "initrd": "C:/Users/VIKI/GNS3/images/QEMU/asa842-initrd.gz",
+                    "kernel_command_line": "ide_generic.probe_mask=0x01 ide_core.chs=0.0:980,16,32 auto nousb console=ttyS0,9600 bigphysarea=65536 ide1=noprobe no-hlt -net nic",
+                    "kernel_image": "C:/Users/VIKI/GNS3/images/QEMU/asa842-vmlinuz",
+                    "legacy_networking": true,
+                    "options": "-icount auto -hdachs 980,16,32 -vga none -vnc none",
+                    "process_priority": "low",
+                    "qemu_path": "C:\\Program Files\\GNS3\\qemu-0.11.0\\qemu.exe",
+                    "ram": 1024
+                },
+                "symbol": ":/symbols/asa.svg",
+                "x": -101,
+                "y": -147,
+                "z": 1
+            }
+        ]
+    },
+    "type": "topology",
+    "version": "2.2.36"
+}
